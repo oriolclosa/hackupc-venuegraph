@@ -3,7 +3,11 @@
 #include <set>
 #include <vector>
 #include <list>
+#include <queue>
+#include <stdlib.h>
 using namespace std;
+
+#define INF 0x3f3f3f3f
 
 bool bfs(map<string, set<vector<string>>> university, string from, string to){
     if(from==to){
@@ -22,7 +26,7 @@ bool bfs(map<string, set<vector<string>>> university, string from, string to){
             if((*it)[1]==to){
                 return true;
             }
-            if(visited.find((*it)[1])==visited.end()){
+            if((visited.find((*it)[1])==visited.end())&&(atoi((*it)[0].c_str())>=0)){
                 visited.insert((*it)[1]);
                 queue.push_back((*it)[1]);
             }
@@ -30,6 +34,40 @@ bool bfs(map<string, set<vector<string>>> university, string from, string to){
         }
     }
     return false;
+}
+
+pair<int, map<string, string>> dijkstra(map<string, set<vector<string>>> university, string from, string to){
+    map<string, string> path;
+    map<string, int> dist;
+    dist[from] = 0;
+    set<pair<int, string>> q;
+    q.insert({0, from});
+    while(!q.empty()){
+        auto top = q.begin();
+        string u = top->second;
+        q.erase(top);
+        set<vector<string>>::iterator it = university[u].begin();
+        while(it!=university[u].end()){
+            int w = atoi((*it)[0].c_str());
+            if(w>=0){
+                string v = (*it)[1];
+                int dv = INF;
+                if(dist.find(v)!=dist.end()){
+                    dv = dist[v];
+                }
+                if(dv > (dist[u]+w)){
+                    if(q.find({dv, v})!=q.end()){
+                        q.erase(q.find({dv, v}));
+                    }
+                    path[v] = u;
+                    dist[v] = dist[u]+w;
+                    q.insert({dist[v], v});
+                }
+            }
+            ++it;
+        }
+    }
+    return pair<int, map<string, string>>(dist[to], path);
 }
 
 int main(){
@@ -383,4 +421,25 @@ int main(){
     else{
         cout << "SOME PLACES ARE NOT CONNECTED!" << endl;
     }
+
+    cout << endl;
+
+    cout << "DIJKSTRA TEST" << endl;
+    string from = "A3-2-3", to = "D-0-3";
+    pair<int, map<string, string>> path = dijkstra(university, from, to);
+
+    vector<string> pathReal;
+    if(path.first>=0){
+        string current = to;
+        pathReal.push_back(current);
+        while(current!=from){
+            current = path.second[current];
+            pathReal.push_back(current);
+        }
+    }
+
+    for(int i=pathReal.size()-1; i>=0; --i){
+        cout << pathReal[i] << endl;
+    }
+    cout << "DISTANCE: " << path.first << "m" << endl;
 }
