@@ -2,7 +2,35 @@
 #include <map>
 #include <set>
 #include <vector>
+#include <list>
 using namespace std;
+
+bool bfs(map<string, set<vector<string>>> university, string from, string to){
+    if(from==to){
+        return true;
+    }
+    set<string> visited;
+    list<string> queue;
+    visited.insert(from);
+    queue.push_back(from);
+    list<string>::iterator i;
+    while(!queue.empty()){
+        string current = queue.front();
+        queue.pop_front();
+        set<vector<string>>::iterator it = university[current].begin();
+        while(it!=university[current].end()){
+            if((*it)[1]==to){
+                return true;
+            }
+            if(visited.find((*it)[1])==visited.end()){
+                visited.insert((*it)[1]);
+                queue.push_back((*it)[1]);
+            }
+            ++it;
+        }
+    }
+    return false;
+}
 
 int main(){
     //Pesos negatius indiquen pas tallat
@@ -138,7 +166,7 @@ int main(){
         {"A4-0-11", {{"1", "A4-0-9"}}},
         {"A4-0-12", {{"1", "A4-0-9"}}},
         {"A4-0-13", {{"1", "A4-0-9"}, {"9", "A4-E-1"}}},
-        {"A4-0-14", {{"4", "A3-0-14"}, {"1", "A4-0-2"}}},
+        {"A4-0-14", {{"4", "A3-0-14"}, {"1", "A4-0-2"}, {"7", "D-0-2"}}},
         {"A4-E-1", {{"10", "A4-0-13"}, {"9", "A4-1-13"}}},
         {"A4-E-2", {{"10", "A4-0-10"}, {"9", "A4-1-9"}}},
         {"A4-1-0", {{"6", "A4-1-1"}, {"6", "A4-1-2"}, {"4", "A4-1-3"}, {"4", "A4-1-4"}}},
@@ -193,7 +221,7 @@ int main(){
         {"A3-0-11", {{"1", "A3-0-9"}}},
         {"A3-0-12", {{"1", "A3-0-9"}}},
         {"A3-0-13", {{"1", "A3-0-9"}, {"9", "A3-E-2"}}},
-        {"A3-0-14", {{"1", "A3-0-3"}, {"4", "A4-0-14"}}},
+        {"A3-0-14", {{"1", "A3-0-3"}, {"4", "A4-0-14"}, {"7", "D-0-1"}}},
         {"A3-E-1", {{"10", "A4-0-10"}, {"9", "A3-1-9"}}},
         {"A3-E-2", {{"10", "A3-0-13"}, {"9", "A3-1-13"}}},
         {"A3-1-0", {{"6", "A3-1-1"}, {"6", "A3-1-2"}, {"4", "A3-1-3"}, {"4", "A3-1-4"}}},
@@ -234,7 +262,7 @@ int main(){
         {"A3-2-18", {{"2", "A3-2-0"}}},
 
         //Vèrtex
-        {"V-0-0", {{"12", "A6-0-0"}, {"12", "A6-0-1"}}},
+        {"V-0-0", {{"12", "A6-0-0"}, {"12", "V-0-1"}}},
         {"V-0-1", {{"4", "V-0-0"}, {"4", "V-0-2"}}},
         {"V-0-2", {{"4", "V-0-1"}, {"4", "V-0-3"}}},
         {"V-0-3", {{"4", "V-0-2"}, {"4", "V-0-4"}}},
@@ -254,8 +282,8 @@ int main(){
 
         //Poliesportiu
         {"D-0-0", {{"3", "D-0-1"}, {"3", "D-0-2"}, {"100", "D-0-3"}}},
-        {"D-0-1", {{"7", "A3-0-14"}, {"3", "D-0-1"}, {"3", "D-0-0"}, {"3", "D-0-2"}}},
-        {"D-0-2", {{"7", "A3-0-14"}, {"3", "D-0-0"}, {"3", "D-0-1"}}},
+        {"D-0-1", {{"7", "A3-0-14"}, {"3", "D-0-0"}, {"3", "D-0-2"}}},
+        {"D-0-2", {{"7", "A4-0-14"}, {"3", "D-0-0"}, {"3", "D-0-1"}}},
         {"D-0-3", {{"100", "D-0-0"}}}
     };
 
@@ -264,4 +292,95 @@ int main(){
         cout << it->first << endl;
         ++it;
     }*/
+
+    set<vector<string>> placesTo = {
+        {"A6-1-10", "Cafeteria"},
+        {"A5-0-11", "Info-desk"},
+        {"A5-0-11", "Baggage check-in"},
+        {"A5-0-11", "Hardware lab"},
+        {"A5-0-5", "Talk Room 1"},
+        {"A5-0-6", "Talk Room 2"},
+        {"A5-0-0", "Food"},
+        {"D-0-3", "Showers"},
+        {"V-0-16", "Auditorium"}
+    };
+
+    set<vector<string>> placesFrom = {
+        {"A3-1-3", "Sleeping Room"},
+        {"A3-1-4", "Sleeping Room"},
+        {"A3-1-6", "Sleeping Room"},
+        {"A3-1-7", "Sleeping Room"},
+        {"A3-2-3", "Sleeping Room"},
+        {"A3-2-4", "Sleeping Room"},
+        {"A3-2-6", "Sleeping Room"},
+        {"A3-2-7", "Sleeping Room"},
+        {"A3-2-18", "Sleeping Room"},
+        {"A4-1-3", "Hacking Room"},
+        {"A4-1-4", "Hacking Room"},
+        {"A4-1-6", "Hacking Room"},
+        {"A4-1-7", "Hacking Room"},
+        {"A4-2-3", "Sleeping Room"},
+        {"A4-2-4", "Sleeping Room"},
+        {"A4-2-6", "Sleeping Room"},
+        {"A4-2-7", "Sleeping Room"},
+        {"A4-2-18", "Sleeping Room"},
+        {"A5-1-3", "Hacking Room"},
+        {"A5-1-4", "Hacking Room"},
+        {"A5-1-5", "Hacking Room"},
+        {"A5-1-6", "Hacking Room"},
+        {"A5-1-7", "Hacking Room"},
+        {"A5-2-3", "Hacking Room"},
+        {"A5-2-4", "Hacking Room"},
+        {"A5-2-5", "Hacking Room"},
+        {"A5-2-6", "Hacking Room"},
+        {"A5-2-7", "Hacking Room"},
+        {"A6-1-3", "Hacking Room"},
+        {"A6-1-4", "Hacking Room"},
+        {"A6-1-5", "Hacking Room"},
+        {"A6-1-7", "Hacking Room"},
+        {"A6-2-3", "Hacking Room"},
+        {"A6-2-4", "Hacking Room"},
+        {"A6-2-5", "Hacking Room"},
+        {"A6-2-6", "Hacking Room"},
+        {"A6-2-7", "Hacking Room"},
+        {"A6-S1-10", "Check-in"},
+        {"A6-1-10", "Cafeteria"},
+        {"A5-0-11", "Info-desk"},
+        {"A5-0-11", "Baggage check-in"},
+        {"A5-0-11", "Hardware lab"},
+        {"A5-0-5", "Talk Room 1"},
+        {"A5-0-6", "Talk Room 2"},
+        {"A5-0-0", "Food"},
+        {"D-0-3", "Showers"},
+        {"V-0-16", "Auditorium"}
+    };
+
+    cout << "CHECKING CONNECTIVITY" << endl;
+    bool allConnected = true;
+
+    set<vector<string>>::iterator it1 = placesFrom.begin();
+    while(it1!=placesFrom.end()){
+        set<vector<string>>::iterator it2 = placesTo.begin();
+        while(it2!=placesTo.end()){
+            if(it1!=it2){
+                cout << (*it1)[1] << " (" << (*it1)[0] << ") to " << (*it2)[1] << " (" << (*it2)[0] << ")";
+                if(bfs(university, (*it1)[0], (*it2)[0])){
+                    cout << " is connected." << endl;
+                }
+                else{
+                    cout << " is NOT connected." << endl;
+                    allConnected = false;
+                }
+            }
+            ++it2;
+        }
+        ++it1;
+    }
+
+    if(allConnected){
+        cout << "ALL PLACES CONNECTED!" << endl;
+    }
+    else{
+        cout << "SOME PLACES ARE NOT CONNECTED!" << endl;
+    }
 }
