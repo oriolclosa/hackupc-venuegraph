@@ -331,16 +331,18 @@ int main(){
         ++it;
     }*/
 
-    set<vector<string>> placesTo = {
-        {"A6-1-10", "Cafeteria"},
-        {"A5-0-11", "Info-desk"},
-        {"A5-0-11", "Baggage check-in"},
-        {"A5-0-11", "Hardware lab"},
-        {"A5-0-5", "Talk Room 1"},
-        {"A5-0-6", "Talk Room 2"},
-        {"A5-0-0", "Food"},
-        {"D-0-3", "Showers"},
-        {"V-0-16", "Auditorium"}
+    map<string, set<string>> placesTo = {
+        {"Cafeteria", {"A6-1-10"}},
+        {"Info-desk", {"A5-0-11"}},
+        {"Baggage check-in", {"A5-0-11"}},
+        {"Hardware lab", {"A5-0-11"}},
+        {"Talk Room 1", {"A5-0-5"}},
+        {"Talk Room 2", {"A5-0-6"}},
+        {"Food", {"A5-0-0"}},
+        {"Showers", {"D-0-3"}},
+        {"Auditorium", {"V-0-16"}},
+        {"Men Bathroom", {"A6-1-15", "A6-2-15", "A5-1-15", "A5-2-15", "A4-1-15", "A4-2-15", "A3-1-16", "A3-2-16", "A6-S1-14"}},
+        {"Women Bathroom", {"A6-1-16", "A6-2-16", "A5-1-16", "A5-2-16", "A4-1-16", "A4-2-16", "A3-1-15", "A3-2-15", "A6-S1-13"}}
     };
 
     set<vector<string>> placesFrom = {
@@ -393,7 +395,14 @@ int main(){
         {"V-0-16", "Auditorium"}
     };
 
-    cout << "CHECKING CONNECTIVITY" << endl;
+    set<string> placesSigns = {
+        "A5-0-8",
+        "A5-0-7",
+        "A4-0-3",
+        "A6-2-9"
+    };
+
+    /*cout << "CHECKING CONNECTIVITY" << endl;
     bool allConnected = true;
 
     set<vector<string>>::iterator it1 = placesFrom.begin();
@@ -421,10 +430,9 @@ int main(){
     else{
         cout << "SOME PLACES ARE NOT CONNECTED!" << endl;
     }
+    cout << endl;*/
 
-    cout << endl;
-
-    cout << "DIJKSTRA TEST" << endl;
+    /*cout << "DIJKSTRA TEST" << endl;
     string from = "A3-2-3", to = "D-0-3";
     pair<int, map<string, string>> path = dijkstra(university, from, to);
 
@@ -441,5 +449,31 @@ int main(){
     for(int i=pathReal.size()-1; i>=0; --i){
         cout << pathReal[i] << endl;
     }
-    cout << "DISTANCE: " << path.first << "m" << endl;
+    cout << "DISTANCE: " << path.first << "m" << endl;*/
+
+    cout << "SIGN DIRECTIONS" << endl;
+
+    set<string>::iterator it1 = placesSigns.begin();
+    while(it1!=placesSigns.end()){
+        map<string, set<string>>::iterator it2 = placesTo.begin();
+        cout << *it1 << endl;
+        while(it2!=placesTo.end()){
+            cout << "\t" << it2->first;
+            set<string>::iterator it3 = it2->second.begin();
+            pair<int, string> minPath(INF, "");
+            while(it3!=(it2->second.end())){
+                if((*it1)!=(*it3)){
+                    pair<int, map<string, string>> path = dijkstra(university, *it1, *it3);
+                    if(path.first<minPath.first){
+                        minPath.first = path.first;
+                        minPath.second = *it3;
+                    }
+                }
+                ++it3;
+            }
+            cout << " (" << minPath.second << ") at " << minPath.first << "m" << endl;
+            ++it2;
+        }
+        ++it1;
+    }
 }
