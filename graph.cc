@@ -5,6 +5,7 @@
 #include <list>
 #include <queue>
 #include <stdlib.h>
+#include <string>
 using namespace std;
 
 #define INF 0x3f3f3f3f
@@ -23,12 +24,14 @@ bool bfs(map<string, set<vector<string>>> university, string from, string to){
         queue.pop_front();
         set<vector<string>>::iterator it = university[current].begin();
         while(it!=university[current].end()){
-            if((*it)[1]==to){
-                return true;
-            }
-            if((visited.find((*it)[1])==visited.end())&&(atoi((*it)[0].c_str())>=0)){
-                visited.insert((*it)[1]);
-                queue.push_back((*it)[1]);
+            if(((*it).size()==2)&&((*it)[1].length()>1)){
+                if((*it)[1]==to){
+                    return true;
+                }
+                if((visited.find((*it)[1])==visited.end())&&(atoi((*it)[0].c_str())>=0)){
+                    visited.insert((*it)[1]);
+                    queue.push_back((*it)[1]);
+                }
             }
             ++it;
         }
@@ -48,20 +51,22 @@ pair<int, map<string, string>> dijkstra(map<string, set<vector<string>>> univers
         q.erase(top);
         set<vector<string>>::iterator it = university[u].begin();
         while(it!=university[u].end()){
-            int w = atoi((*it)[0].c_str());
-            if(w>=0){
-                string v = (*it)[1];
-                int dv = INF;
-                if(dist.find(v)!=dist.end()){
-                    dv = dist[v];
-                }
-                if(dv > (dist[u]+w)){
-                    if(q.find({dv, v})!=q.end()){
-                        q.erase(q.find({dv, v}));
+            if(((*it).size()==2)&&((*it)[1].length()>1)){
+                int w = atoi((*it)[0].c_str());
+                if(w>=0){
+                    string v = (*it)[1];
+                    int dv = INF;
+                    if(dist.find(v)!=dist.end()){
+                        dv = dist[v];
                     }
-                    path[v] = u;
-                    dist[v] = dist[u]+w;
-                    q.insert({dist[v], v});
+                    if(dv > (dist[u]+w)){
+                        if(q.find({dv, v})!=q.end()){
+                            q.erase(q.find({dv, v}));
+                        }
+                        path[v] = u;
+                        dist[v] = dist[u]+w;
+                        q.insert({dist[v], v});
+                    }
                 }
             }
             ++it;
@@ -460,7 +465,6 @@ int main(){
         map<string, set<string>>::iterator it2 = placesTo.begin();
         cout << *it1 << endl;
         while(it2!=placesTo.end()){
-            cout << "\t" << it2->first;
             set<string>::iterator it3 = it2->second.begin();
             pair<int, string> minPath(INF, "");
             while(it3!=(it2->second.end())){
@@ -473,7 +477,14 @@ int main(){
                 }
                 ++it3;
             }
-            cout << " (" << minPath.second << ") at " << minPath.first << "m" << endl;
+            cout << "\t" << minPath.first << "m\t" << it2->first;
+            if(it2->first.length()<8){
+                cout << "\t";
+            }
+            if(it2->first.length()<16){
+                cout << "\t";
+            }
+            cout << "\t" << minPath.second << endl;
             ++it2;
         }
         ++it1;
