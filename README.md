@@ -19,6 +19,7 @@ Beware that the code for any place is created by concatenating the identifier of
 
 ### Codes reference
 Below are the codes for the places you can shown on the signs.
+
 | Code          | Text displayed      |
 | ------------- | ------------------- |
 | CA            | Cafeteria           |
