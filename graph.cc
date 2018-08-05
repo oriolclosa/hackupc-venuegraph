@@ -503,8 +503,8 @@ int main(){
                     direction = university[placesSigns[i][0]][k][2];
                 }
             }
-            cout << "\t\t\t\t\t\t{" << endl << "\t\t\t\t\t\t\t\"place\": \"" << placesToTranslate[placesSigns[i][j]] << "\"" << endl;
-            cout << "\t\t\t\t\t\t\t\"direction\": \"" << getArrow(university[placesSigns[i][0]][0][0], direction) << "\"" << endl;
+            cout << "\t\t\t\t\t\t{" << endl << "\t\t\t\t\t\t\t\"place\": \"" << placesToTranslate[placesSigns[i][j]] << "\"," << endl;
+            cout << "\t\t\t\t\t\t\t\"direction\": \"" << getArrow(university[placesSigns[i][0]][0][0], direction) << "\"," << endl;
             cout << "\t\t\t\t\t\t\t\"distance\": " << minPath.first << endl;
             cout << "\t\t\t\t\t\t}";
             if(j < (placesSigns[i].size()-1)){
