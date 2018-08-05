@@ -39,7 +39,7 @@ bool bfs(map<string, set<vector<string>>> university, string from, string to){
     return false;
 }
 
-pair<int, map<string, string>> dijkstra(map<string, set<vector<string>>> university, string from, string to){
+pair<int, map<string, string>> dijkstra(map<string, vector<vector<string>>> university, string from, string to){
     map<string, string> path;
     map<string, int> dist;
     dist[from] = 0;
@@ -49,35 +49,82 @@ pair<int, map<string, string>> dijkstra(map<string, set<vector<string>>> univers
         auto top = q.begin();
         string u = top->second;
         q.erase(top);
-        set<vector<string>>::iterator it = university[u].begin();
-        while(it!=university[u].end()){
-            if(((*it).size()==2)&&((*it)[1].length()>1)){
-                int w = atoi((*it)[0].c_str());
-                if(w>=0){
-                    string v = (*it)[1];
-                    int dv = INF;
-                    if(dist.find(v)!=dist.end()){
-                        dv = dist[v];
+        for(int i=1; i<university[u].size(); ++i){
+            int w = atoi(university[u][i][0].c_str());
+            if(w>=0){
+                string v = university[u][i][1];
+                int dv = INF;
+                if(dist.find(v)!=dist.end()){
+                    dv = dist[v];
+                }
+                if(dv > (dist[u]+w)){
+                    if(q.find({dv, v})!=q.end()){
+                        q.erase(q.find({dv, v}));
                     }
-                    if(dv > (dist[u]+w)){
-                        if(q.find({dv, v})!=q.end()){
-                            q.erase(q.find({dv, v}));
-                        }
-                        path[v] = u;
-                        dist[v] = dist[u]+w;
-                        q.insert({dist[v], v});
-                    }
+                    path[v] = u;
+                    dist[v] = dist[u]+w;
+                    q.insert({dist[v], v});
                 }
             }
-            ++it;
         }
     }
     return pair<int, map<string, string>>(dist[to], path);
 }
 
+string getArrow(string from, string to){
+    if(from == to){
+        return "/\\";
+    }
+    if(from == "T"){
+        if(to == "B"){
+            return "\\/";
+        }
+        else if(to == "L"){
+            return "<-";
+        }
+        else if(to == "R"){
+            return "->";
+        }
+    }
+    else if(from == "B"){
+        if(to == "T"){
+            return "\\/";
+        }
+        else if(to == "L"){
+            return "<-";
+        }
+        else if(to == "R"){
+            return "->";
+        }
+    }
+    else if(from == "L"){
+        if(to == "T"){
+            return "->";
+        }
+        else if(to == "B"){
+            return "<-";
+        }
+        else if(to == "R"){
+            return "\\/";
+        }
+    }
+    else if(from == "R"){
+        if(to == "T"){
+            return "<-";
+        }
+        else if(to == "B"){
+            return "->";
+        }
+        else if(to == "R"){
+            return "\\/";
+        }
+    }
+    return "?";
+}
+
 int main(){
     //Pesos negatius indiquen pas tallat
-    map<string, set<vector<string>>> university = {
+    map<string, vector<vector<string>>> university = {
         //Edifici A6
         {"A6-S1-0", {{"T"}, {"5", "A6-S1-9", "T"}}},
         {"A6-S1-1", {{"T"}, {"5", "A6-S1-2", "L"}}},
@@ -338,75 +385,46 @@ int main(){
         ++it;
     }*/
 
-    map<string, set<string>> placesTo = {
-        {"Cafeteria", {"A6-1-10"}},
-        {"Info-desk", {"A5-0-11"}},
-        {"Baggage check-in", {"A5-0-11"}},
-        {"Hardware lab", {"A5-0-11"}},
-        {"Talk Room 1", {"A5-0-5"}},
-        {"Talk Room 2", {"A5-0-6"}},
-        {"Food", {"A5-0-0"}},
-        {"Showers", {"D-0-3"}},
-        {"Auditorium", {"V-0-16"}},
-        {"Men Bathroom", {"A6-1-15", "A6-2-15", "A5-1-15", "A5-2-15", "A4-1-15", "A4-2-15", "A3-1-16", "A3-2-16", "A6-S1-14"}},
-        {"Women Bathroom", {"A6-1-16", "A6-2-16", "A5-1-16", "A5-2-16", "A4-1-16", "A4-2-16", "A3-1-15", "A3-2-15", "A6-S1-13"}}
+    map<string, string> placesToTranslate = {
+        {"CA", "Cafeteria"},
+        {"ID", "Info-desk"},
+        {"BC", "Baggage check-in"},
+        {"HL", "Hardware lab"},
+        {"T1", "Talk Room 1"},
+        {"T2", "Talk Room 2"},
+        {"TR", "Talk Rooms"},
+        {"ME", "Meals"},
+        {"SH", "Showers"},
+        {"AU", "Auditorium"},
+        {"MB", "Men Bathroom"},
+        {"WB", "Women Bathroom"},
+        {"SR", "Sleeping Rooms"},
+        {"HR", "Hacker Rooms"}
     };
 
-    set<vector<string>> placesFrom = {
-        {"A3-1-3", "Sleeping Room"},
-        {"A3-1-4", "Sleeping Room"},
-        {"A3-1-6", "Sleeping Room"},
-        {"A3-1-7", "Sleeping Room"},
-        {"A3-2-3", "Sleeping Room"},
-        {"A3-2-4", "Sleeping Room"},
-        {"A3-2-6", "Sleeping Room"},
-        {"A3-2-7", "Sleeping Room"},
-        {"A3-2-18", "Sleeping Room"},
-        {"A4-1-3", "Hacking Room"},
-        {"A4-1-4", "Hacking Room"},
-        {"A4-1-6", "Hacking Room"},
-        {"A4-1-7", "Hacking Room"},
-        {"A4-2-3", "Sleeping Room"},
-        {"A4-2-4", "Sleeping Room"},
-        {"A4-2-6", "Sleeping Room"},
-        {"A4-2-7", "Sleeping Room"},
-        {"A4-2-18", "Sleeping Room"},
-        {"A5-1-3", "Hacking Room"},
-        {"A5-1-4", "Hacking Room"},
-        {"A5-1-5", "Hacking Room"},
-        {"A5-1-6", "Hacking Room"},
-        {"A5-1-7", "Hacking Room"},
-        {"A5-2-3", "Hacking Room"},
-        {"A5-2-4", "Hacking Room"},
-        {"A5-2-5", "Hacking Room"},
-        {"A5-2-6", "Hacking Room"},
-        {"A5-2-7", "Hacking Room"},
-        {"A6-1-3", "Hacking Room"},
-        {"A6-1-4", "Hacking Room"},
-        {"A6-1-5", "Hacking Room"},
-        {"A6-1-7", "Hacking Room"},
-        {"A6-2-3", "Hacking Room"},
-        {"A6-2-4", "Hacking Room"},
-        {"A6-2-5", "Hacking Room"},
-        {"A6-2-6", "Hacking Room"},
-        {"A6-2-7", "Hacking Room"},
-        {"A6-S1-10", "Check-in"},
-        {"A6-1-10", "Cafeteria"},
-        {"A5-0-11", "Info-desk"},
-        {"A5-0-11", "Baggage check-in"},
-        {"A5-0-11", "Hardware lab"},
-        {"A5-0-5", "Talk Room 1"},
-        {"A5-0-6", "Talk Room 2"},
-        {"A5-0-0", "Food"},
-        {"D-0-3", "Showers"},
-        {"V-0-16", "Auditorium"}
+    map<string, vector<string>> placesTo = {
+        {"CA", {"A6-1-10"}},
+        {"ID", {"A5-0-11"}},
+        {"BC", {"A5-0-11"}},
+        {"HL", {"A5-0-11"}},
+        {"T1", {"A5-0-5"}},
+        {"T2", {"A5-0-6"}},
+        {"TR", {"A5-0-5", "A5-0-6"}},
+        {"ME", {"A5-0-0"}},
+        {"SH", {"D-0-3"}},
+        {"AU", {"V-0-16"}},
+        {"MB", {"A6-1-15", "A6-2-15", "A5-1-15", "A5-2-15", "A4-1-15", "A4-2-15", "A3-1-16", "A3-2-16", "A6-S1-14"}},
+        {"WB", {"A6-1-16", "A6-2-16", "A5-1-16", "A5-2-16", "A4-1-16", "A4-2-16", "A3-1-15", "A3-2-15", "A6-S1-13"}},
+        {"SR", {"A3-1-3", "A3-1-4", "A3-1-6", "A3-1-7", "A3-2-3", "A3-2-4", "A3-2-6", "A3-2-7", "A3-2-18", "A4-2-3",
+            "A4-2-4", "A4-2-6", "A4-2-7", "A4-2-18"}},
+        {"HR", {"A4-1-3", "A4-1-4", "A4-1-6", "A4-1-7", "A5-1-3", "A5-1-4", "A5-1-5", "A5-1-6", "A5-1-7", "A5-2-3",
+            "A5-2-4", "A5-2-5", "A5-2-6", "A5-2-7", "A6-1-3", "A6-1-4", "A6-1-5", "A6-1-7", "A6-2-3", "A6-2-4", "A6-2-5",
+            "A6-2-6", "A6-2-7"}}
     };
 
-    set<string> placesSigns = {
-        "A5-0-8",
-        "A5-0-7",
-        "A4-0-3",
-        "A6-2-9"
+    vector<vector<string>> placesSigns = {
+        {"A6-S1-12", "BC", "HR", "MB", "WB"},
+        {"A5-0-7", "ID", "HR", "SR", "CA", "TR"}
     };
 
     /*cout << "CHECKING CONNECTIVITY" << endl;
@@ -458,35 +476,51 @@ int main(){
     }
     cout << "DISTANCE: " << path.first << "m" << endl;*/
 
-    cout << "SIGN DIRECTIONS" << endl;
-
-    set<string>::iterator it1 = placesSigns.begin();
-    while(it1!=placesSigns.end()){
-        map<string, set<string>>::iterator it2 = placesTo.begin();
-        cout << *it1 << endl;
-        while(it2!=placesTo.end()){
-            set<string>::iterator it3 = it2->second.begin();
+    cout << "{" << endl << "\t\"sign\":" << endl << "\t\t[" << endl;
+    for(int i=0; i<placesSigns.size(); ++i){
+        cout << "\t\t\t{" << endl << "\t\t\t\t\"id\": \"" << placesSigns[i][0] << "\"," << endl << "\t\t\t\t\"line\":" << endl << "\t\t\t\t\t[" << endl;
+        for(int j=1; j<placesSigns[i].size(); ++j){
             pair<int, string> minPath(INF, "");
-            while(it3!=(it2->second.end())){
-                if((*it1)!=(*it3)){
-                    pair<int, map<string, string>> path = dijkstra(university, *it1, *it3);
-                    if((path.first!=0)&&(path.first<minPath.first)){
-                        minPath.first = path.first;
-                        minPath.second = *it3;
+            for(int k=0; k<placesTo[placesSigns[i][j]].size(); ++k){
+                pair<int, map<string, string>> path = dijkstra(university, placesSigns[i][0], placesTo[placesSigns[i][j]][k]);
+                if((path.first!=0)&&(path.first<minPath.first)){
+                    vector<string> pathReal;
+                    if(path.first>=0){
+                        string current = placesTo[placesSigns[i][j]][k];
+                        pathReal.push_back(current);
+                        while(current != placesSigns[i][0]){
+                            current = path.second[current];
+                            pathReal.push_back(current);
+                        }
                     }
+                    minPath.first = path.first;
+                    minPath.second = pathReal[pathReal.size()-2];
                 }
-                ++it3;
             }
-            cout << "\t" << minPath.first << "m\t" << it2->first;
-            if(it2->first.length()<8){
-                cout << "\t";
+            string direction = "";
+            for(int k=1; k<university[placesSigns[i][0]].size(); ++k){
+                if(university[placesSigns[i][0]][k][1] == minPath.second){
+                    direction = university[placesSigns[i][0]][k][2];
+                }
             }
-            if(it2->first.length()<16){
-                cout << "\t";
+            cout << "\t\t\t\t\t\t{" << endl << "\t\t\t\t\t\t\t\"place\": \"" << placesToTranslate[placesSigns[i][j]] << "\"" << endl;
+            cout << "\t\t\t\t\t\t\t\"direction\": \"" << getArrow(university[placesSigns[i][0]][0][0], direction) << "\"" << endl;
+            cout << "\t\t\t\t\t\t\t\"distance\": " << minPath.first << endl;
+            cout << "\t\t\t\t\t\t}";
+            if(j < (placesSigns[i].size()-1)){
+                cout << "," << endl;
             }
-            cout << "\t" << minPath.second << endl;
-            ++it2;
+            else{
+                cout << endl;
+            }
         }
-        ++it1;
+        cout << "\t\t\t\t\t]" << endl << "\t\t\t}";
+        if(i < (placesSigns.size()-1)){
+            cout << "," << endl;
+        }
+        else{
+            cout << endl;
+        }
     }
+    cout << "\t\t]" << endl << "}" << endl;
 }
