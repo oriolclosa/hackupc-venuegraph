@@ -387,9 +387,9 @@ int main(){
 
     map<string, string> placesToTranslate = {
         {"CA", "Cafeteria"},
-        {"ID", "Info-desk"},
-        {"BC", "Baggage check-in"},
-        {"HL", "Hardware lab"},
+        {"ID", "Info-Desk"},
+        {"BC", "Baggage Check-in"},
+        {"HL", "Hardware Lab"},
         {"T1", "Talk Room 1"},
         {"T2", "Talk Room 2"},
         {"TR", "Talk Rooms"},
