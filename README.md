@@ -50,23 +50,23 @@ If you run the code without any changes, you should get the following result.
                                 "line":
                                         [
                                                 {
-                                                        "place": "Baggage Check-in"
-                                                        "direction": "<-"
+                                                        "place": "Baggage Check-in",
+                                                        "direction": "<-",
                                                         "distance": 28
                                                 },
                                                 {
-                                                        "place": "Hacker Rooms"
-                                                        "direction": "<-"
+                                                        "place": "Hacker Rooms",
+                                                        "direction": "<-",
                                                         "distance": 36
                                                 },
                                                 {
-                                                        "place": "Men Bathroom"
-                                                        "direction": "/\"
+                                                        "place": "Men Bathroom",
+                                                        "direction": "/\",
                                                         "distance": 1
                                                 },
                                                 {
-                                                        "place": "Women Bathroom"
-                                                        "direction": "/\"
+                                                        "place": "Women Bathroom",
+                                                        "direction": "/\",
                                                         "distance": 1
                                                 }
                                         ]
@@ -76,28 +76,28 @@ If you run the code without any changes, you should get the following result.
                                 "line":
                                         [
                                                 {
-                                                        "place": "Info-Desk"
-                                                        "direction": "/\"
+                                                        "place": "Info-Desk",
+                                                        "direction": "/\",
                                                         "distance": 14
                                                 },
                                                 {
-                                                        "place": "Hacker Rooms"
-                                                        "direction": "<-"
+                                                        "place": "Hacker Rooms",
+                                                        "direction": "<-",
                                                         "distance": 26
                                                 },
                                                 {
-                                                        "place": "Sleeping Rooms"
-                                                        "direction": "<-"
+                                                        "place": "Sleeping Rooms",
+                                                        "direction": "<-",
                                                         "distance": 48
                                                 },
                                                 {
-                                                        "place": "Cafeteria"
-                                                        "direction": "/\"
+                                                        "place": "Cafeteria",
+                                                        "direction": "/\",
                                                         "distance": 49
                                                 },
                                                 {
-                                                        "place": "Talk Rooms"
-                                                        "direction": "/\"
+                                                        "place": "Talk Rooms",
+                                                        "direction": "/\",
                                                         "distance": 8
                                                 }
                                         ]
