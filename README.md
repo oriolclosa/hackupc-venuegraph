@@ -3,7 +3,7 @@
 </p>
 
 # Campus Nord (UPC) paths and signs generator
-Using a self-created map of the Campus Nord (UPC) where HackUPC is held, it computes the shortest path from a given place to another. Furthermore, it automatically creates a JSON with the signs content to be put on each point so hackers don't get lost. Just tell the system which points do you want to put a sign on and where should they give indications to and it will generate them for you.
+Using a self-created map of the Campus Nord (UPC) where HackUPC is held, it computes the shortest path from a given place to another. Furthermore, it automatically creates a JSON with the signs content to be put on each point so hackers don't get lost. Just tell the system which points do you want to put a sign on and where should they give indications to and it will generate them for you. But not only this, you will also get the approximate distance in meters for every route on each sign!
 
 ## Requirements
 It's just a C++ program, so you'll need just any compiler, GCC is okay. Be aware that it uses some C++11 functions and so you'll need at least this version of C++.
@@ -18,6 +18,7 @@ Beware that the code for any place is created by concatenating the identifier of
 </p>
 
 ### Codes reference
+Below are the codes for the places you can shown on the signs.
 | Code          | Text displayed      |
 | ------------- | ------------------- |
 | CA            | Cafeteria           |
