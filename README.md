@@ -13,8 +13,7 @@ Change the `placesSigns` function and add any points where you would like to put
 
 ## Graph reference
 <p align="center">
-  <img alt="Campus Nord Graph" src="
-https://github.com/oriolclosa/hackupc-campusnordgraph/raw/master/graph.png"/>
+  <img alt="Campus Nord Graph" src="https://github.com/oriolclosa/hackupc-campusnordgraph/raw/master/graph.png"/>
 </p>
 
 ### Codes reference
