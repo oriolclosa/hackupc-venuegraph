@@ -11,6 +11,12 @@ It's just a C++ program, so you'll need just any compiler, GCC is okay. Be aware
 ## Usage
 Change the `placesSigns` function and add any points where you would like to put signs on, you can also follow this ID with all the codes of the places you want them to be on the sign. Compile, run and there you go, a ready to be converted JSON!
 
+## Graph reference
+<p align="center">
+  <img alt="Campus Nord Graph" src="
+https://github.com/oriolclosa/hackupc-campusnordgraph/raw/master/graph.png"/>
+</p>
+
 ### Codes reference
 | Code          | Text displayed      |
 | ------------- | ------------------- |
