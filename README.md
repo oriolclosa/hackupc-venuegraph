@@ -36,3 +36,69 @@ Below are the codes for the places you can shown on the signs.
 | WB            | Women Bathroom      |
 | SR            | Sleeping Rooms      |
 | HR            | Hacker Rooms        |
+
+## Result example
+```
+{
+        "sign":
+                [
+                        {
+                                "id": "A6-S1-12",
+                                "line":
+                                        [
+                                                {
+                                                        "place": "Baggage Check-in"
+                                                        "direction": "<-"
+                                                        "distance": 28
+                                                },
+                                                {
+                                                        "place": "Hacker Rooms"
+                                                        "direction": "<-"
+                                                        "distance": 36
+                                                },
+                                                {
+                                                        "place": "Men Bathroom"
+                                                        "direction": "/\"
+                                                        "distance": 1
+                                                },
+                                                {
+                                                        "place": "Women Bathroom"
+                                                        "direction": "/\"
+                                                        "distance": 1
+                                                }
+                                        ]
+                        },
+                        {
+                                "id": "A5-0-7",
+                                "line":
+                                        [
+                                                {
+                                                        "place": "Info-Desk"
+                                                        "direction": "/\"
+                                                        "distance": 14
+                                                },
+                                                {
+                                                        "place": "Hacker Rooms"
+                                                        "direction": "<-"
+                                                        "distance": 26
+                                                },
+                                                {
+                                                        "place": "Sleeping Rooms"
+                                                        "direction": "<-"
+                                                        "distance": 48
+                                                },
+                                                {
+                                                        "place": "Cafeteria"
+                                                        "direction": "/\"
+                                                        "distance": 49
+                                                },
+                                                {
+                                                        "place": "Talk Rooms"
+                                                        "direction": "/\"
+                                                        "distance": 8
+                                                }
+                                        ]
+                        }
+                ]
+}
+```
