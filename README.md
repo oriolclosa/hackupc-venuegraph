@@ -12,6 +12,7 @@ It's just a C++ program, so you'll need just any compiler, GCC is okay. Be aware
 Change the `placesSigns` function and add any points where you would like to put signs on, you can also follow this ID with all the codes of the places you want them to be on the sign. Compile, run and there you go, a ready to be converted JSON!
 
 ## Graph reference
+Beware that the code for any place is created by concatenating the identifier of the building, the floor and the number with hyphens. For example, if we want to identify the possible sign number 7 in the floor 0 of the 16 building, the code for it would be `A6-0-7`.
 <p align="center">
   <img alt="Campus Nord Graph" src="https://github.com/oriolclosa/hackupc-campusnordgraph/raw/master/graph.png"/>
 </p>
