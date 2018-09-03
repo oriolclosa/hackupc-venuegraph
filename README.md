@@ -21,7 +21,7 @@ Beware that the code for any place is created by concatenating the identifier of
 </p>
 
 ### Codes reference
-Below are the codes for the places you can shown on the signs.
+Below are the codes for the places you can show on the signs.
 
 | Code          | Text displayed      |
 | ------------- | ------------------- |
