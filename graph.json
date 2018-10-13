@@ -1,0 +1,4253 @@
+{
+	"sign":
+		[
+			{
+				"id": "A6-S1-8",
+				"line":
+					[
+						{
+							"place": "Check-in",
+							"direction": "->",
+							"distance": 26,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-6",
+				"line":
+					[
+						{
+							"place": "Check-in",
+							"direction": "->",
+							"distance": 16,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-1",
+				"line":
+					[
+						{
+							"place": "Check-in",
+							"direction": "<-",
+							"distance": 26,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-3",
+				"line":
+					[
+						{
+							"place": "Check-in",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-9",
+				"line":
+					[
+						{
+							"place": "Check-in",
+							"direction": "->",
+							"distance": 6,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-11",
+				"line":
+					[
+						{
+							"place": "Baggage Check-in",
+							"direction": "->",
+							"distance": 32,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 40,
+							"building": "A5"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-12",
+				"line":
+					[
+						{
+							"place": "Baggage Check-in",
+							"direction": "<-",
+							"distance": 28,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 36,
+							"building": "A5"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-S1-15",
+				"line":
+					[
+						{
+							"place": "Baggage Check-in",
+							"direction": "->",
+							"distance": 26,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 34,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-10",
+				"line":
+					[
+						{
+							"place": "Baggage Check-in",
+							"direction": "->",
+							"distance": 16,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 24,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-10",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 27,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 24,
+							"building": "A5"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 16,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 16,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-9",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 47,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 24,
+							"building": "A5"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-8",
+				"line":
+					[
+						{
+							"place": "Baggage Check-in",
+							"direction": "/\",
+							"distance": 14,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 14,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "/\",
+							"distance": 14,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 101,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "/\",
+							"distance": 158,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 14,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-7",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 14,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "/\",
+							"distance": 14,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "/\",
+							"distance": 121,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 138,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 14,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-6",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Baggage Check-in",
+							"direction": "<-",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 34,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-5",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Baggage Check-in",
+							"direction": "->",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 34,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-4",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 4,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 4,
+							"building": "A5"
+						},
+						{
+							"place": "Baggage Check-in",
+							"direction": "->",
+							"distance": 4,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-0-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 6,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 110,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 147,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A5-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 9,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 109,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 148,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A5-0-3",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 30,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 28,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 69,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-0-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 51,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 28,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 47,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-E-1",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 38,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 15,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "->",
+							"distance": 37,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-E-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 18,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 15,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 57,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-1-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 45,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 18,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 37,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 39,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 45,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 39,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 24,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 31,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 33,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 39,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 39,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 12,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 33,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 39,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 35,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 8,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 179,
+							"building": "D"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "/\",
+							"distance": 47,
+							"building": "A4"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 35,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-12",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 7,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 48,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 2,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-17",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 6,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 30,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 25,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-1-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 37,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 26,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 29,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 31,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 37,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-1-13",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "\/",
+							"distance": 30,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 26,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-1-11",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 35,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 27,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 159,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 29,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 35,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 27,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 28,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 50,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 50,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 33,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 22,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 44,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 50,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 50,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 21,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 34,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 44,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 50,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 17,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 190,
+							"building": "D"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "/\",
+							"distance": 38,
+							"building": "A4"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-12",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "\/",
+							"distance": 18,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 39,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 2,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-17",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "\/",
+							"distance": 18,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 40,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-2-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 35,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 20,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 42,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A5-2-13",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 17,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A5-2-11",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 18,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 170,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 40,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-0-10",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 39,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 24,
+							"building": "A6"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-0-9",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 23,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 25,
+							"building": "A6"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 23,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 23,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-0-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 41,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "/\",
+							"distance": 41,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 98,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "/\",
+							"distance": 183,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "/\",
+							"distance": 37,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-0-7",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 21,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 21,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 98,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 163,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 17,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-0-6",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 33,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 33,
+							"building": "A5"
+						},
+						{
+							"place": "Baggage Check-in",
+							"direction": "<-",
+							"distance": 33,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 34,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-0-5",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 29,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 29,
+							"building": "A5"
+						},
+						{
+							"place": "Baggage Check-in",
+							"direction": "<-",
+							"distance": 29,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 35,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-0-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 30,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "\/",
+							"distance": 87,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 172,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A6-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 31,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 84,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 173,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A6-0-3",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 43,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 28,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "->",
+							"distance": 94,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-0-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 27,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 29,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 72,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-E-1",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 14,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 16,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "->",
+							"distance": 64,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-E-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 30,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 15,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 84,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-1-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 10,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 64,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 58,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 40,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 42,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 58,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 70,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 54,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 62,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "\/",
+							"distance": 20,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 204,
+							"building": "D"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 74,
+							"building": "A4"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 58,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-12",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 24,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 1,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-1-16",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 25,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 13,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-1-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 3,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 52,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 44,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "\/",
+							"distance": 2,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 38,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 40,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-1-13",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 35,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-1-11",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 42,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 54,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 184,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 36,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 38,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 61,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 24,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 54,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 55,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 59,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 55,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 18,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 49,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 67,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 30,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 60,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 61,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 65,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 71,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 31,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 215,
+							"building": "D"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 64,
+							"building": "A4"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 69,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-12",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 24,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 1,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-2-16",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 25,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 13,
+							"building": "A6"
+						}
+					]
+			},
+			{
+				"id": "A6-2-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 21,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 42,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A6"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 46,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 47,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 51,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A6-2-13",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 45,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A6-2-11",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 51,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 44,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 195,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 45,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 49,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-0-10",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 24,
+							"building": "A4"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 23,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "->",
+							"distance": 23,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-0-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 78,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 25,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 20,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 23,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-0-9",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 21,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 24,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-0-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 21,
+							"building": "A5"
+						},
+						{
+							"place": "Hardware Lab",
+							"direction": "<-",
+							"distance": 21,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 126,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 135,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 17,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-0-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 30,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 135,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 122,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A4-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 31,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 134,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 123,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A4-0-3",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 54,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 28,
+							"building": "A4"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "/\",
+							"distance": 44,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-0-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 76,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 50,
+							"building": "A4"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-0-14",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 42,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 51,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 110,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A4-E-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 69,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 16,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "<-",
+							"distance": 11,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 14,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-E-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 44,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 15,
+							"building": "A4"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 31,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-1-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 45,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 25,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 48,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-1-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 58,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 51,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 19,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 54,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-1-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 39,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "->",
+							"distance": 26,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 40,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 42,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-1-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 42,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 35,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 156,
+							"building": "D"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 22,
+							"building": "A4"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 38,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-1-12",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 34,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 21,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 2,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-1-17",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 33,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-1-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 52,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "/\",
+							"distance": 18,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-1-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 60,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 53,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 18,
+							"building": "A4"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 54,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 56,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-1-11",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 55,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "->",
+							"distance": 16,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-1-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 60,
+							"building": "A5"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 17,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 174,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 54,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-2-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 67,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 60,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 25,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-2-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 72,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 65,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 19,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-2-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 61,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 54,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 23,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-2-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 51,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 44,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 167,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 49,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-2-12",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 44,
+							"building": "A6"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "\/",
+							"distance": 12,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 5,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 2,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-2-17",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 43,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A5"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A4-2-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 60,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 4,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A4-2-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 71,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 64,
+							"building": "A6"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 65,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 67,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A4-2-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 68,
+							"building": "A5"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 182,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 62,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 64,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-0-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 73,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 25,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "<-",
+							"distance": 23,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "<-",
+							"distance": 20,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-0-9",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 24,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 21,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-0-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 57,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "\/",
+							"distance": 162,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 122,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A3-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 56,
+							"building": "A5"
+						},
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 159,
+							"building": "V"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 123,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A3-0-3",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 82,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 56,
+							"building": "A4"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "<-",
+							"distance": 50,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-0-2",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 76,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 40,
+							"building": "A4"
+						},
+						{
+							"place": "Sleeping Rooms",
+							"direction": "/\",
+							"distance": 28,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-0-14",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "/\",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "/\",
+							"distance": 55,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 110,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "A3-E-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 64,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 16,
+							"building": "A4"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 14,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "->",
+							"distance": 11,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-1-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 49,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 49,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 8,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-1-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 55,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 14,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-1-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 50,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 43,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 2,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-1-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 42,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 59,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 156,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 38,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-1-12",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "<-",
+							"distance": 2,
+							"building": "A3"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 26,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-1-17",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A3"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 27,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-1-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 49,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-1-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 45,
+							"building": "A6"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 46,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 48,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-1-11",
+				"line":
+					[
+						{
+							"place": "Talk Rooms",
+							"direction": "\/",
+							"distance": 48,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-1-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 55,
+							"building": "A5"
+						},
+						{
+							"place": "Showers",
+							"direction": "\/",
+							"distance": 169,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "\/",
+							"distance": 49,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 51,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-2-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 60,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 75,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 34,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-2-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 54,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 71,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 30,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-2-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 66,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 69,
+							"building": "A6"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 28,
+							"building": "A4"
+						}
+					]
+			},
+			{
+				"id": "A3-2-9",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "<-",
+							"distance": 70,
+							"building": "A6"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 167,
+							"building": "D"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 49,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-2-12",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "<-",
+							"distance": 2,
+							"building": "A3"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 37,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-2-17",
+				"line":
+					[
+						{
+							"place": "Men Bathroom",
+							"direction": "/\",
+							"distance": 1,
+							"building": "A3"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 38,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-2-14",
+				"line":
+					[
+						{
+							"place": "Cafeteria",
+							"direction": "/\",
+							"distance": 57,
+							"building": "A6"
+						},
+						{
+							"place": "Men Bathroom",
+							"direction": "->",
+							"distance": 4,
+							"building": "A4"
+						},
+						{
+							"place": "Women Bathroom",
+							"direction": "\/",
+							"distance": 1,
+							"building": "A3"
+						}
+					]
+			},
+			{
+				"id": "A3-2-8",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 66,
+							"building": "A5"
+						},
+						{
+							"place": "Cafeteria",
+							"direction": "->",
+							"distance": 59,
+							"building": "A6"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "->",
+							"distance": 60,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "->",
+							"distance": 62,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "A3-2-13",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 63,
+							"building": "A5"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 177,
+							"building": "D"
+						},
+						{
+							"place": "Talk Rooms",
+							"direction": "<-",
+							"distance": 57,
+							"building": "A5"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 59,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-0",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 72,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 43,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 52,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 37,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-1",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 60,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 47,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 56,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 41,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-2",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 56,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 51,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 60,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 45,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-3",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 52,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 55,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 64,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 49,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-4",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 48,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 59,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 68,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 53,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-5",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 44,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 63,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 72,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 57,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-6",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 40,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 67,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 76,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 61,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-7",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 36,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 71,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 80,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 65,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-8",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 32,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 75,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 84,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 69,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-9",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 28,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 79,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 88,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 73,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-10",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 24,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 83,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 92,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 77,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-11",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 20,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 87,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 96,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 81,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-12",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 16,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 91,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 100,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 85,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-13",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 12,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "<-",
+							"distance": 95,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "<-",
+							"distance": 104,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "<-",
+							"distance": 89,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-14",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "->",
+							"distance": 8,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 99,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 108,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 93,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "V-0-15",
+				"line":
+					[
+						{
+							"place": "Auditorium",
+							"direction": "<-",
+							"distance": 4,
+							"building": "V"
+						},
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 103,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 112,
+							"building": "A6"
+						},
+						{
+							"place": "Meals",
+							"direction": "\/",
+							"distance": 97,
+							"building": "A5"
+						}
+					]
+			},
+			{
+				"id": "D-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 100,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 100,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 100,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 100,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-0",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 100,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-1",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "->",
+							"distance": 52,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "->",
+							"distance": 61,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "->",
+							"distance": 103,
+							"building": "D"
+						}
+					]
+			},
+			{
+				"id": "D-0-2",
+				"line":
+					[
+						{
+							"place": "Info-Desk",
+							"direction": "\/",
+							"distance": 49,
+							"building": "A5"
+						},
+						{
+							"place": "Hacker Rooms",
+							"direction": "\/",
+							"distance": 58,
+							"building": "A4"
+						},
+						{
+							"place": "Showers",
+							"direction": "<-",
+							"distance": 103,
+							"building": "D"
+						}
+					]
+			}
+		]
+}

@@ -41,7 +41,7 @@ Below are the codes for the places you can show on the signs.
 | HR            | Hacker Rooms        |
 
 ### Result example
-If you run the code without any changes, you should get the following result.
+The result of the code could be the following.
 
 ```
 {
@@ -54,22 +54,26 @@ If you run the code without any changes, you should get the following result.
                                                 {
                                                         "place": "Baggage Check-in",
                                                         "direction": "<-",
-                                                        "distance": 28
+                                                        "distance": 28,
+                                                        "building": "A5"
                                                 },
                                                 {
                                                         "place": "Hacker Rooms",
                                                         "direction": "<-",
-                                                        "distance": 36
+                                                        "distance": 36,
+                                                        "building": "A5"
                                                 },
                                                 {
                                                         "place": "Men Bathroom",
                                                         "direction": "/\",
-                                                        "distance": 1
+                                                        "distance": 1,
+                                                        "building": "A6"
                                                 },
                                                 {
                                                         "place": "Women Bathroom",
                                                         "direction": "/\",
-                                                        "distance": 1
+                                                        "distance": 1,
+                                                        "building": "A6"
                                                 }
                                         ]
                         },
@@ -80,27 +84,32 @@ If you run the code without any changes, you should get the following result.
                                                 {
                                                         "place": "Info-Desk",
                                                         "direction": "/\",
-                                                        "distance": 14
+                                                        "distance": 14,
+                                                        "building": "A5"
                                                 },
                                                 {
                                                         "place": "Hacker Rooms",
                                                         "direction": "<-",
-                                                        "distance": 26
+                                                        "distance": 26,
+                                                        "building": "A5"
                                                 },
                                                 {
                                                         "place": "Sleeping Rooms",
                                                         "direction": "<-",
-                                                        "distance": 48
+                                                        "distance": 48,
+                                                        "building": "A4"
                                                 },
                                                 {
                                                         "place": "Cafeteria",
                                                         "direction": "/\",
-                                                        "distance": 49
+                                                        "distance": 49,
+                                                        "building": "A6"
                                                 },
                                                 {
                                                         "place": "Talk Rooms",
                                                         "direction": "/\",
-                                                        "distance": 8
+                                                        "distance": 8,
+                                                        "building": "A5"
                                                 }
                                         ]
                         }

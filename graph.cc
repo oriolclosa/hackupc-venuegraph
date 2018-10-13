@@ -432,7 +432,7 @@ int main(){
 		{"A6-S1-9", "CI"},
 		{"A6-S1-11", "BC", "HR", "MB", "WB"},
 		{"A6-S1-12", "BC", "HR", "MB", "WB"},
-        {"A6-S1-15", "BC", "HR"},
+		{"A6-S1-15", "BC", "HR"},
 
 		{"A5-0-10", "BC", "HR"},
 		{"A5-0-10", "CA", "HR", "ID", "HL"},
@@ -642,6 +642,7 @@ int main(){
         cout << "\t\t\t{" << endl << "\t\t\t\t\"id\": \"" << placesSigns[i][0] << "\"," << endl << "\t\t\t\t\"line\":" << endl << "\t\t\t\t\t[" << endl;
         for(int j=1; j<placesSigns[i].size(); ++j){
             pair<int, string> minPath(INF, "");
+            string building = "";
             for(int k=0; k<placesTo[placesSigns[i][j]].size(); ++k){
                 pair<int, map<string, string>> path = dijkstra(university, placesSigns[i][0], placesTo[placesSigns[i][j]][k]);
                 if((path.first!=0)&&(path.first<minPath.first)){
@@ -656,6 +657,7 @@ int main(){
                     }
                     minPath.first = path.first;
                     minPath.second = pathReal[pathReal.size()-2];
+                    building = pathReal[0];
                 }
             }
             string direction = "";
@@ -666,7 +668,8 @@ int main(){
             }
             cout << "\t\t\t\t\t\t{" << endl << "\t\t\t\t\t\t\t\"place\": \"" << placesToTranslate[placesSigns[i][j]] << "\"," << endl;
             cout << "\t\t\t\t\t\t\t\"direction\": \"" << getArrow(university[placesSigns[i][0]][0][0], direction) << "\"," << endl;
-            cout << "\t\t\t\t\t\t\t\"distance\": " << minPath.first << endl;
+            cout << "\t\t\t\t\t\t\t\"distance\": " << minPath.first << "," << endl;
+            cout << "\t\t\t\t\t\t\t\"building\": \"" << building.substr(0, building.find("-")) << "\"" << endl;
             cout << "\t\t\t\t\t\t}";
             if(j < (placesSigns[i].size()-1)){
                 cout << "," << endl;
